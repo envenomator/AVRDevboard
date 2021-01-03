@@ -123,8 +123,6 @@ F 3 "" H 2750 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 3300 1950 3300
-Wire Wire Line
 	2250 1450 2250 2300
 Wire Wire Line
 	2350 1450 2350 2100
@@ -174,10 +172,6 @@ F 3 "" H 1150 7500 50  0001 C CNN
 	1    1150 7500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 3300 1950 4000
-Wire Wire Line
-	1950 4000 1750 4000
 NoConn ~ 1750 4200
 NoConn ~ 1750 3900
 NoConn ~ 1750 3000
@@ -218,9 +212,6 @@ Text Label 1650 5150 0    50   ~ 0
 TXD
 Text Label 1650 5250 0    50   ~ 0
 RXD
-Connection ~ 1950 3300
-Wire Wire Line
-	1950 3300 1750 3300
 $Comp
 L Transistor_FET:2N7000 Q1
 U 1 1 5FF67164
@@ -917,4 +908,8 @@ Wire Wire Line
 Wire Wire Line
 	1900 6500 1550 6500
 Connection ~ 1550 6500
+Wire Wire Line
+	1750 3300 2150 3300
+NoConn ~ 1750 4000
+NoConn ~ 1750 4100
 $EndSCHEMATC
