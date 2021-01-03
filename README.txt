@@ -1,14 +1,21 @@
+A development board for Atmega328p, with basics like 
 
-EE Concierge + KiCAD Library Install Instruction:
-Contents of this Zip file:
-- eec.lib: The schematic symbol(s)
-- eec.dcm: The component description, keywords, and aliases
-- eec.pretty/*.mod: The layout footprint(s)
-- eec.models/*.step: The 3d models of the components
+8x LED on PB0-7
+LDR / Potmeter
+Servo header / servo power selector 
+Two pushbuttons, one at each INT0/1
+I2C header 
+Serial header 
 
-The schematic symbols are organized by the manufacturer part number.
-The layout footprints are organized by the manufacturer name and the
-identifier the manufacturer gives to the footprint, or the part number if one
-is not supplied.
+Several jumpers, to make optimal use of pins.
 
-All parts exported successfully.
+Selections via jumpers:
+1) Use either crystal or LEDs on PB6/7
+2) Use either LDR or Potmeter at PC0
+3) Use either Servo or LED at PB1 / T1 16-bit timer OC1A
+4) Use either VCC voltage for servo, or seperately supplied voltage
+
+PINs available for
+1) I2C
+2) Serial GND/TX/RX
+3) INT0/INT1
