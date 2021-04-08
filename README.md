@@ -23,4 +23,6 @@ PINs available for
 
 Photo shows an earlier PCB with switched labels. Current gerbers are correct and have been printed correctly at JLCPCB.
 
+Enjoy experimenting!
+
 ![](Final.jpg)
