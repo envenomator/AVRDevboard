@@ -1,4 +1,5 @@
-A development board for Atmega328p, with basics like 
+I bought the book 'Make: AVR Programming - by Elliot Williams' and soon got fed up breadboarding the experiments.
+So I created an PCB-based development board for Atmega328p, with basics like 
 
 8x LED on PB0-7
 LDR / Potmeter
