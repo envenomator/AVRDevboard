@@ -19,3 +19,7 @@ PINs available for
 1) I2C
 2) Serial GND/TX/RX
 3) INT0/INT1
+
+Photo shows an earlier PCB with switched labels. Current gerbers are correct and have been printed correctly at JLCPCB.
+
+![](Final.jpg)
